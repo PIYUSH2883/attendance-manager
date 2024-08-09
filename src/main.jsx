@@ -7,6 +7,7 @@ import SignIn from './component/signIn/signIn.jsx';
 import SignUp from './component/signUp/index.jsx';
 import Home from './component/Home/index.jsx';
 import Dashboard from './component/Dashboard/index.jsx';
+import History from './component/History/index.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path:'/dashboard',
     element:<Dashboard/>
+  },
+  {
+    path:'/history',
+    element:<History/>
   }
 ]);
 

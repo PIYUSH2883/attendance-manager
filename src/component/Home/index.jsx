@@ -8,8 +8,8 @@ function Home() {
     <>
       <Navbar className="fixed top-0 left-0 w-full z-50" />
    
-      <div className="bg-slate-400 min-h-screen flex items-center justify-center overflow-hidden"> {/* Add padding-top to avoid content under Navbar */}
-        <div className="flex flex-col md:flex-row h-full w-full">
+      <div className="bg-yellow-100 min-h-screen flex items-center justify-center overflow-hidden"> {/* Add padding-top to avoid content under Navbar */}
+        <div className="flex flex-col md:flex-row h-full w-full overflow-y-hidden">
           <div className="w-full md:w-1/2 flex justify-center items-center">
             <img
               alt="Attendance App"
@@ -20,7 +20,7 @@ function Home() {
 
           <div className="w-full md:w-1/2  flex flex-col justify-center items-center px-auto lg:px-14">
             <h1 className="text-4xl font-bold text-gray-800  text-center ">
-              Welcome to Attendance App
+              Welcome to Presence Plus
             </h1>
             <br />
             <p className="text-gray-600 mb-8 text-center text-lg md:text-center">

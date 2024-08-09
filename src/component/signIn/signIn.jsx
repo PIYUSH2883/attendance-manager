@@ -27,9 +27,9 @@ function SignIn() {
     <>
       <Navbar />
       
-      <div className="min-h-screen bg-slate-400 flex items-center justify-center">
-        <div className="bg-slate-800 p-8 rounded-lg shadow-lg w-full max-w-md">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">Sign In</h2>
+      <div className="min-h-screen bg-yellow-100 flex items-center justify-center">
+        <div className="bg-slate-800 text-white p-8 rounded-lg shadow-lg w-full max-w-md">
+          <h2 className="text-2xl font-bold text-white mb-6">Sign In</h2>
           {errorMessage && <p className="text-red-500 mb-4">{errorMessage}</p>}
           <form onSubmit={handleSignIn}>
             <div className="mb-4">

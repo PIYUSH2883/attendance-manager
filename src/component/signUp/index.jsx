@@ -21,17 +21,15 @@ function SignUp() {
     setSuccessMessage(`Sign-up successful! Your details have been saved.`);
     navigate('/dashboard');
     
-    // (Optional) Reset the input fields after signup
-    setName('');
-    setEmail('');
-    setPassword('');
+   
+
   };
 
   return (
     <>
       <Navbar  />
       
-      <div className="min-h-screen bg-slate-400 flex items-center justify-center">
+      <div className="min-h-screen bg-yellow-100 flex items-center justify-center">
         <div className="bg-slate-800 p-8 rounded-lg shadow-lg w-full max-w-md">
           <h2 className="text-2xl font-bold text-white mb-6">Sign Up</h2>
           {successMessage && <p className="text-green-500 mb-4">{successMessage}</p>}
